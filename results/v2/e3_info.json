@@ -1,0 +1,4 @@
+{
+  "note": "stage-2 latencies are ASSUMPTIONS; stage 2 is not implemented/evaluated",
+  "stage1_latency_ms_per_url": 0.35062511761983234
+}

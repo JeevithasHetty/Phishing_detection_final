@@ -1,0 +1,96 @@
+{
+  "charcnn_logit_drop_best_single_segment": 2.4358065587663114,
+  "charcnn_logit_drop_removing_top_segment_by_saliency": 1.7035151419550305,
+  "charcnn_saliency_ms_per_url": 0.6434115500011709,
+  "example": {
+    "risk": 0.9948849363251013,
+    "toward_legitimate": [
+      [
+        "lexical",
+        "longest_digit_run",
+        0.4042913615703583,
+        -1.1359649896621704
+      ],
+      [
+        "lexical",
+        "len_path",
+        0.12708158791065216,
+        -1.1025954484939575
+      ],
+      [
+        "lexical",
+        "tld_len",
+        -0.4231296479701996,
+        -0.25611087679862976
+      ],
+      [
+        "url_ngram",
+        "an",
+        0.037810444831848145,
+        -0.19100509583950043
+      ],
+      [
+        "url_ngram",
+        "it",
+        0.047260675579309464,
+        -0.18670299649238586
+      ],
+      [
+        "lexical",
+        "host_label_max_len",
+        -0.19541393220424652,
+        -0.14719411730766296
+      ]
+    ],
+    "toward_phishing": [
+      [
+        "typosquat",
+        "is_brand_exact",
+        -0.330836683511734,
+        2.4644484519958496
+      ],
+      [
+        "lexical",
+        "path_entropy",
+        0.21069881319999695,
+        1.7280503511428833
+      ],
+      [
+        "lexical",
+        "n_digits_host",
+        1.004973292350769,
+        1.4380754232406616
+      ],
+      [
+        "lexical",
+        "n_subdomains",
+        0.437041312456131,
+        1.1066546440124512
+      ],
+      [
+        "lexical",
+        "path_depth",
+        0.18190202116966248,
+        0.7172737121582031
+      ],
+      [
+        "lexical",
+        "n_digits_url",
+        0.2852975130081177,
+        0.6934409737586975
+      ]
+    ],
+    "url": "http://avito.id72136.ru/merchant/code"
+  },
+  "max_abs_error_additive_decomposition_vs_logit": 3.814697265625e-06,
+  "mean_segments_per_url": 6.136666666666667,
+  "n_urls": 300,
+  "n_urls_evaluated": 300,
+  "xlin_char_attribution_ms_per_url": 2.075700746666674,
+  "xlin_exact_explanation_ms_per_url": 1.9246629466670129,
+  "xlin_logit_drop_removing_best_segment_by_occlusion": 3.093167781829834,
+  "xlin_logit_drop_removing_random_segment": 0.39660485564168385,
+  "xlin_logit_drop_removing_top_segment_by_exact_attribution": 1.3284517526626587,
+  "xlin_occlusion_ms_per_url": 4.843189740001132,
+  "xlin_prediction_only_ms_per_url": 1.6381145733324352
+}

@@ -1,0 +1,17 @@
+cost,cost_per_1k,fn,fp,inspections,capacity_K,capacity_violations,n,policy,classifier,tuning,threshold,requests_denied
+69379.0,540.6633313071803,6230,7079,0,6416,0,128322,fixed_0.5,primary:hybrid_lr,"thr_tuned_on_val=0.0818; band tuned on policy split=(0.02, 0.5)",,
+44196.0,344.4148314396596,1746,26736,0,6416,0,128322,val_tuned_threshold,primary:hybrid_lr,"thr_tuned_on_val=0.0818; band tuned on policy split=(0.02, 0.5)",0.08182457437532478,
+44355.0,345.6539019030252,1910,25255,0,6416,0,128322,fixed_0.09090909090909091,primary:hybrid_lr,"thr_tuned_on_val=0.0818; band tuned on policy split=(0.02, 0.5)",,
+34545.5,269.20948863016474,1146,7079,32013,6416,25597,128322,bayes_expected_cost_unconstrained,primary:hybrid_lr,"thr_tuned_on_val=0.0818; band tuned on policy split=(0.02, 0.5)",,
+42383.0,330.2863109988934,1758,21595,6416,6416,0,128322,bayes_capacity_fcfs,primary:hybrid_lr,"thr_tuned_on_val=0.0818; band tuned on policy split=(0.02, 0.5)",,25597.0
+41843.0,326.078147161048,1845,20185,6416,6416,0,128322,bayes_batch_topK(needs full queue),primary:hybrid_lr,"thr_tuned_on_val=0.0818; band tuned on policy split=(0.02, 0.5)",,
+42740.0,333.068374869469,1685,22682,6416,6416,0,128322,"uncertainty_band[0.02,0.50]_fcfs",primary:hybrid_lr,"thr_tuned_on_val=0.0818; band tuned on policy split=(0.02, 0.5)",,39761.0
+42740.0,333.068374869469,1685,22682,6416,6416,0,128322,contextual_bandit_fcfs,primary:hybrid_lr,"thr_tuned_on_val=0.0818; band tuned on policy split=(0.02, 0.5)",,39761.0
+181106.0,1411.340222253394,17598,5126,0,6416,0,128322,fixed_0.5,weak:lr_lex,"thr_tuned_on_val=0.0698; band tuned on policy split=(0.02, 0.5)",,
+79648.0,620.6885802902075,1144,68208,0,6416,0,128322,val_tuned_threshold,weak:lr_lex,"thr_tuned_on_val=0.0698; band tuned on policy split=(0.02, 0.5)",0.06984909251332283,
+81727.0,636.8900110659123,1709,64637,0,6416,0,128322,fixed_0.09090909090909091,weak:lr_lex,"thr_tuned_on_val=0.0698; band tuned on policy split=(0.02, 0.5)",,
+55166.0,429.9029005158897,788,5126,84320,6416,77904,128322,bayes_expected_cost_unconstrained,weak:lr_lex,"thr_tuned_on_val=0.0698; band tuned on policy split=(0.02, 0.5)",,
+79779.0,621.7094496656848,1647,60101,6416,6416,0,128322,bayes_capacity_fcfs,weak:lr_lex,"thr_tuned_on_val=0.0698; band tuned on policy split=(0.02, 0.5)",,77904.0
+79129.0,616.6440672682783,1629,59631,6416,6416,0,128322,bayes_batch_topK(needs full queue),weak:lr_lex,"thr_tuned_on_val=0.0698; band tuned on policy split=(0.02, 0.5)",,
+79878.0,622.4809463692898,1609,60580,6416,6416,0,128322,"uncertainty_band[0.02,0.50]_fcfs",weak:lr_lex,"thr_tuned_on_val=0.0698; band tuned on policy split=(0.02, 0.5)",,87069.0
+79799.0,621.8653075856049,1599,60601,6416,6416,0,128322,contextual_bandit_fcfs,weak:lr_lex,"thr_tuned_on_val=0.0698; band tuned on policy split=(0.02, 0.5)",,77501.0

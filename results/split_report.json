@@ -1,0 +1,430 @@
+{
+  "chronological": "NOT SUPPORTED: no timestamps/provenance in supplied data",
+  "pool_exclusions": {
+    "empty_host": 2,
+    "input_rows": 674007,
+    "label_conflict_keys": 7,
+    "label_conflict_rows": 14,
+    "normalised_duplicates_dropped": 7083,
+    "pool_rows": 666908
+  },
+  "protocols": {
+    "hostname_seed42": {
+      "checksum": "85d2f27aee57516f7257ccb2fe70aca9956b05769ccd99f6a6106f7147e60eb4",
+      "counts": {
+        "policy": {
+          "phish_pct": 30.75,
+          "phishing": 18534,
+          "rows": 60269
+        },
+        "test": {
+          "phish_pct": 26.72,
+          "phishing": 38164,
+          "rows": 142850
+        },
+        "train": {
+          "phish_pct": 27.9,
+          "phishing": 112540,
+          "rows": 403431
+        },
+        "val": {
+          "phish_pct": 31.39,
+          "phishing": 18944,
+          "rows": 60358
+        }
+      },
+      "disjoint_at_level": true,
+      "overlap": {
+        "policy~test": {
+          "hostname": 0,
+          "regdomain": 1386,
+          "url": 0
+        },
+        "train~policy": {
+          "hostname": 0,
+          "regdomain": 2264,
+          "url": 0
+        },
+        "train~test": {
+          "hostname": 0,
+          "regdomain": 3821,
+          "url": 0
+        },
+        "train~val": {
+          "hostname": 0,
+          "regdomain": 2339,
+          "url": 0
+        },
+        "val~policy": {
+          "hostname": 0,
+          "regdomain": 960,
+          "url": 0
+        },
+        "val~test": {
+          "hostname": 0,
+          "regdomain": 1402,
+          "url": 0
+        }
+      }
+    },
+    "random_seed42": {
+      "checksum": "8aebffb5848318445a53b30719ac8611e016194b1344509df85b0a83eae813fa",
+      "counts": {
+        "policy": {
+          "phish_pct": 28.22,
+          "phishing": 18818,
+          "rows": 66690
+        },
+        "test": {
+          "phish_pct": 28.22,
+          "phishing": 37637,
+          "rows": 133383
+        },
+        "train": {
+          "phish_pct": 28.22,
+          "phishing": 112909,
+          "rows": 400144
+        },
+        "val": {
+          "phish_pct": 28.22,
+          "phishing": 18818,
+          "rows": 66691
+        }
+      },
+      "disjoint_at_level": true,
+      "overlap": {
+        "policy~test": {
+          "hostname": 7180,
+          "regdomain": 7709,
+          "url": 0
+        },
+        "train~policy": {
+          "hostname": 11345,
+          "regdomain": 11783,
+          "url": 0
+        },
+        "train~test": {
+          "hostname": 18430,
+          "regdomain": 18864,
+          "url": 0
+        },
+        "train~val": {
+          "hostname": 11378,
+          "regdomain": 11789,
+          "url": 0
+        },
+        "val~policy": {
+          "hostname": 5002,
+          "regdomain": 5414,
+          "url": 0
+        },
+        "val~test": {
+          "hostname": 7230,
+          "regdomain": 7777,
+          "url": 0
+        }
+      }
+    },
+    "regdomain_seed11": {
+      "checksum": "85007259709e154b9617033433fda67aefed2c2a62e81be087727a7abd24874d",
+      "counts": {
+        "policy": {
+          "phish_pct": 32.29,
+          "phishing": 21814,
+          "rows": 67555
+        },
+        "test": {
+          "phish_pct": 28.4,
+          "phishing": 36445,
+          "rows": 128322
+        },
+        "train": {
+          "phish_pct": 27.72,
+          "phishing": 113420,
+          "rows": 409194
+        },
+        "val": {
+          "phish_pct": 26.69,
+          "phishing": 16503,
+          "rows": 61837
+        }
+      },
+      "disjoint_at_level": true,
+      "overlap": {
+        "policy~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~policy": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~val": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "val~policy": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "val~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        }
+      }
+    },
+    "regdomain_seed22": {
+      "checksum": "21e1e26927b9c1e41f2b3b1614c447979f7fb9c30dd263a7569cd84e0afba214",
+      "counts": {
+        "policy": {
+          "phish_pct": 41.37,
+          "phishing": 30832,
+          "rows": 74529
+        },
+        "test": {
+          "phish_pct": 26.45,
+          "phishing": 35330,
+          "rows": 133587
+        },
+        "train": {
+          "phish_pct": 27.55,
+          "phishing": 106218,
+          "rows": 385575
+        },
+        "val": {
+          "phish_pct": 21.58,
+          "phishing": 15802,
+          "rows": 73217
+        }
+      },
+      "disjoint_at_level": true,
+      "overlap": {
+        "policy~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~policy": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~val": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "val~policy": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "val~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        }
+      }
+    },
+    "regdomain_seed33": {
+      "checksum": "e5fd02bcf09cc28657743186528fa2d8599ef7ef14da6b1aaaed38d4f1c8cd37",
+      "counts": {
+        "policy": {
+          "phish_pct": 29.62,
+          "phishing": 17091,
+          "rows": 57699
+        },
+        "test": {
+          "phish_pct": 30.74,
+          "phishing": 41110,
+          "rows": 133747
+        },
+        "train": {
+          "phish_pct": 26.63,
+          "phishing": 103334,
+          "rows": 388095
+        },
+        "val": {
+          "phish_pct": 30.5,
+          "phishing": 26647,
+          "rows": 87367
+        }
+      },
+      "disjoint_at_level": true,
+      "overlap": {
+        "policy~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~policy": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~val": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "val~policy": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "val~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        }
+      }
+    },
+    "source_Mendeley-450K_to_PhiUSIIL": {
+      "checksum": "9736acfc8dafb785044d3998693a3e8feaac766cba6d5d8c7a2a0991bd79d390",
+      "counts": {
+        "policy": {
+          "phish_pct": 24.35,
+          "phishing": 10399,
+          "rows": 42705
+        },
+        "test": {
+          "phish_pct": 42.04,
+          "phishing": 96551,
+          "rows": 229686
+        },
+        "train": {
+          "phish_pct": 21.29,
+          "phishing": 62475,
+          "rows": 293472
+        },
+        "val": {
+          "phish_pct": 29.35,
+          "phishing": 10661,
+          "rows": 36318
+        }
+      },
+      "disjoint_at_level": true,
+      "excluded_rows": 64727,
+      "overlap": {
+        "policy~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~policy": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~val": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "val~policy": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "val~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        }
+      }
+    },
+    "source_PhiUSIIL_to_Mendeley-450K": {
+      "checksum": "95573e7bfb5f3bfce6e67bcce6a6ab4dc74546cf8e117385e1ff404d2fa58ffc",
+      "counts": {
+        "policy": {
+          "phish_pct": 32.58,
+          "phishing": 7614,
+          "rows": 23367
+        },
+        "test": {
+          "phish_pct": 21.03,
+          "phishing": 91598,
+          "rows": 435523
+        },
+        "train": {
+          "phish_pct": 40.53,
+          "phishing": 64400,
+          "rows": 158902
+        },
+        "val": {
+          "phish_pct": 33.55,
+          "phishing": 7935,
+          "rows": 23651
+        }
+      },
+      "disjoint_at_level": true,
+      "excluded_rows": 25465,
+      "overlap": {
+        "policy~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~policy": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "train~val": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "val~policy": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        },
+        "val~test": {
+          "hostname": 0,
+          "regdomain": 0,
+          "url": 0
+        }
+      }
+    }
+  },
+  "recent_exclusions": {
+    "empty_host": 0,
+    "input_rows": 74703,
+    "label_conflict_keys": 0,
+    "label_conflict_rows": 0,
+    "normalised_duplicates_dropped": 412,
+    "pool_rows": 74291
+  },
+  "recent_rd_in_pool_rows": 43264
+}

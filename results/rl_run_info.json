@@ -1,0 +1,134 @@
+{
+  "K": 50,
+  "T": 1000,
+  "bands": [
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "stationary_d0_n0.0"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "stationary_d0_n0.1"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "stationary_d10_n0.0"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "stationary_d10_n0.1"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "stationary_d30_n0.0"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "stationary_d30_n0.1"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "bursty_d0_n0.0"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "bursty_d0_n0.1"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "bursty_d10_n0.0"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "bursty_d10_n0.1"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "bursty_d30_n0.0"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "bursty_d30_n0.1"
+    },
+    {
+      "band": [
+        0.05,
+        0.5
+      ],
+      "scenario": "bursty_d10_n0.1"
+    }
+  ],
+  "calibrator": "platt",
+  "classifier": "hybrid_lr",
+  "costs": {
+    "capacity_frac": 0.05,
+    "fn": 10.0,
+    "fp": 1.0,
+    "inspect": 0.5
+  },
+  "fast": false,
+  "protocol": "regdomain_seed11",
+  "rl": {
+    "agent_seeds": [
+      0,
+      1,
+      2
+    ],
+    "alpha": 0.1,
+    "delays": [
+      0,
+      10,
+      30
+    ],
+    "episode_len": 1000,
+    "eps_end": 0.05,
+    "eps_start": 1.0,
+    "eval_episodes": 200,
+    "gamma": 0.97,
+    "noises": [
+      0.0,
+      0.1
+    ],
+    "train_episodes": 600
+  },
+  "val_average_precision": 0.9401930513722669,
+  "variant": "norm",
+  "wall_seconds": 423.6475901603699,
+  "weak_classifier": "lr_lex"
+}

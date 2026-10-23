@@ -1,0 +1,1088 @@
+{
+  "observed_external(recent)|flip_phish_to_legit|gated": [
+    {
+      "event": "commit",
+      "note": "v0 deployed",
+      "round": -1,
+      "version": 0
+    },
+    {
+      "confident_disagreement": 0.34584450402144773,
+      "event": "reject",
+      "n_confident": 373.0,
+      "n_feedback": 700.0,
+      "n_neg": 358.0,
+      "n_pos": 342.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.35>0.3)"
+      ],
+      "round": 0
+    },
+    {
+      "confident_disagreement": 0.32682926829268294,
+      "event": "reject",
+      "n_confident": 410.0,
+      "n_feedback": 700.0,
+      "n_neg": 354.0,
+      "n_pos": 346.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.33>0.3)"
+      ],
+      "round": 1
+    },
+    {
+      "confident_disagreement": 0.618925831202046,
+      "event": "reject",
+      "n_confident": 391.0,
+      "n_feedback": 700.0,
+      "n_neg": 573.0,
+      "n_pos": 127.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.62>0.3)"
+      ],
+      "round": 2
+    },
+    {
+      "confident_disagreement": 0.6203473945409429,
+      "event": "reject",
+      "n_confident": 403.0,
+      "n_feedback": 700.0,
+      "n_neg": 565.0,
+      "n_pos": 135.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.62>0.3)"
+      ],
+      "round": 3
+    },
+    {
+      "confident_disagreement": 0.6253443526170799,
+      "event": "reject",
+      "n_confident": 363.0,
+      "n_feedback": 700.0,
+      "n_neg": 571.0,
+      "n_pos": 129.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.63>0.3)"
+      ],
+      "round": 4
+    },
+    {
+      "confident_disagreement": 0.3399503722084367,
+      "event": "reject",
+      "n_confident": 403.0,
+      "n_feedback": 700.0,
+      "n_neg": 381.0,
+      "n_pos": 319.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.34>0.3)"
+      ],
+      "round": 5
+    },
+    {
+      "confident_disagreement": 0.32653061224489793,
+      "event": "reject",
+      "n_confident": 392.0,
+      "n_feedback": 700.0,
+      "n_neg": 370.0,
+      "n_pos": 330.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.33>0.3)"
+      ],
+      "round": 6
+    },
+    {
+      "confident_disagreement": 0.2772020725388601,
+      "event": "reject",
+      "fbval_cost_cand": 603.3333333333334,
+      "fbval_cost_inc": 596.6666666666666,
+      "n_confident": 386.0,
+      "n_feedback": 700.0,
+      "n_neg": 366.0,
+      "n_pos": 334.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8397801615830015,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 751.6,
+      "ref_cost_inc": 450.2,
+      "round": 7
+    }
+  ],
+  "observed_external(recent)|flip_phish_to_legit|gated+rollback": [
+    {
+      "event": "commit",
+      "note": "v0 deployed",
+      "round": -1,
+      "version": 0
+    },
+    {
+      "confident_disagreement": 0.34584450402144773,
+      "event": "reject",
+      "n_confident": 373.0,
+      "n_feedback": 700.0,
+      "n_neg": 358.0,
+      "n_pos": 342.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.35>0.3)"
+      ],
+      "round": 0
+    },
+    {
+      "confident_disagreement": 0.32682926829268294,
+      "event": "reject",
+      "n_confident": 410.0,
+      "n_feedback": 700.0,
+      "n_neg": 354.0,
+      "n_pos": 346.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.33>0.3)"
+      ],
+      "round": 1
+    },
+    {
+      "confident_disagreement": 0.618925831202046,
+      "event": "reject",
+      "n_confident": 391.0,
+      "n_feedback": 700.0,
+      "n_neg": 573.0,
+      "n_pos": 127.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.62>0.3)"
+      ],
+      "round": 2
+    },
+    {
+      "confident_disagreement": 0.6203473945409429,
+      "event": "reject",
+      "n_confident": 403.0,
+      "n_feedback": 700.0,
+      "n_neg": 565.0,
+      "n_pos": 135.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.62>0.3)"
+      ],
+      "round": 3
+    },
+    {
+      "confident_disagreement": 0.6253443526170799,
+      "event": "reject",
+      "n_confident": 363.0,
+      "n_feedback": 700.0,
+      "n_neg": 571.0,
+      "n_pos": 129.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.63>0.3)"
+      ],
+      "round": 4
+    },
+    {
+      "confident_disagreement": 0.3399503722084367,
+      "event": "reject",
+      "n_confident": 403.0,
+      "n_feedback": 700.0,
+      "n_neg": 381.0,
+      "n_pos": 319.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.34>0.3)"
+      ],
+      "round": 5
+    },
+    {
+      "confident_disagreement": 0.32653061224489793,
+      "event": "reject",
+      "n_confident": 392.0,
+      "n_feedback": 700.0,
+      "n_neg": 370.0,
+      "n_pos": 330.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.33>0.3)"
+      ],
+      "round": 6
+    },
+    {
+      "confident_disagreement": 0.2772020725388601,
+      "event": "reject",
+      "fbval_cost_cand": 603.3333333333334,
+      "fbval_cost_inc": 596.6666666666666,
+      "n_confident": 386.0,
+      "n_feedback": 700.0,
+      "n_neg": 366.0,
+      "n_pos": 334.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8397801615830015,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 751.6,
+      "ref_cost_inc": 450.2,
+      "round": 7
+    }
+  ],
+  "observed_external(recent)|none|gated": [
+    {
+      "event": "commit",
+      "note": "v0 deployed",
+      "round": -1,
+      "version": 0
+    },
+    {
+      "confident_disagreement": 0.34584450402144773,
+      "event": "reject",
+      "n_confident": 373.0,
+      "n_feedback": 700.0,
+      "n_neg": 358.0,
+      "n_pos": 342.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.35>0.3)"
+      ],
+      "round": 0
+    },
+    {
+      "confident_disagreement": 0.32682926829268294,
+      "event": "reject",
+      "n_confident": 410.0,
+      "n_feedback": 700.0,
+      "n_neg": 354.0,
+      "n_pos": 346.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.33>0.3)"
+      ],
+      "round": 1
+    },
+    {
+      "confident_disagreement": 0.35805626598465473,
+      "event": "reject",
+      "n_confident": 391.0,
+      "n_feedback": 700.0,
+      "n_neg": 388.0,
+      "n_pos": 312.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.36>0.3)"
+      ],
+      "round": 2
+    },
+    {
+      "confident_disagreement": 0.3888888888888889,
+      "event": "reject",
+      "n_confident": 378.0,
+      "n_feedback": 700.0,
+      "n_neg": 363.0,
+      "n_pos": 337.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.39>0.3)"
+      ],
+      "round": 3
+    },
+    {
+      "confident_disagreement": 0.3333333333333333,
+      "event": "reject",
+      "n_confident": 372.0,
+      "n_feedback": 700.0,
+      "n_neg": 350.0,
+      "n_pos": 350.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.33>0.3)"
+      ],
+      "round": 4
+    },
+    {
+      "confident_disagreement": 0.3225,
+      "event": "reject",
+      "n_confident": 400.0,
+      "n_feedback": 700.0,
+      "n_neg": 385.0,
+      "n_pos": 315.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.32>0.3)"
+      ],
+      "round": 5
+    },
+    {
+      "confident_disagreement": 0.34203655352480417,
+      "event": "reject",
+      "n_confident": 383.0,
+      "n_feedback": 700.0,
+      "n_neg": 367.0,
+      "n_pos": 333.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.34>0.3)"
+      ],
+      "round": 6
+    },
+    {
+      "confident_disagreement": 0.3148614609571788,
+      "event": "reject",
+      "n_confident": 397.0,
+      "n_feedback": 700.0,
+      "n_neg": 359.0,
+      "n_pos": 341.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.31>0.3)"
+      ],
+      "round": 7
+    }
+  ],
+  "observed_external(recent)|none|gated+rollback": [
+    {
+      "event": "commit",
+      "note": "v0 deployed",
+      "round": -1,
+      "version": 0
+    },
+    {
+      "confident_disagreement": 0.34584450402144773,
+      "event": "reject",
+      "n_confident": 373.0,
+      "n_feedback": 700.0,
+      "n_neg": 358.0,
+      "n_pos": 342.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.35>0.3)"
+      ],
+      "round": 0
+    },
+    {
+      "confident_disagreement": 0.32682926829268294,
+      "event": "reject",
+      "n_confident": 410.0,
+      "n_feedback": 700.0,
+      "n_neg": 354.0,
+      "n_pos": 346.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.33>0.3)"
+      ],
+      "round": 1
+    },
+    {
+      "confident_disagreement": 0.35805626598465473,
+      "event": "reject",
+      "n_confident": 391.0,
+      "n_feedback": 700.0,
+      "n_neg": 388.0,
+      "n_pos": 312.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.36>0.3)"
+      ],
+      "round": 2
+    },
+    {
+      "confident_disagreement": 0.3888888888888889,
+      "event": "reject",
+      "n_confident": 378.0,
+      "n_feedback": 700.0,
+      "n_neg": 363.0,
+      "n_pos": 337.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.39>0.3)"
+      ],
+      "round": 3
+    },
+    {
+      "confident_disagreement": 0.3333333333333333,
+      "event": "reject",
+      "n_confident": 372.0,
+      "n_feedback": 700.0,
+      "n_neg": 350.0,
+      "n_pos": 350.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.33>0.3)"
+      ],
+      "round": 4
+    },
+    {
+      "confident_disagreement": 0.3225,
+      "event": "reject",
+      "n_confident": 400.0,
+      "n_feedback": 700.0,
+      "n_neg": 385.0,
+      "n_pos": 315.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.32>0.3)"
+      ],
+      "round": 5
+    },
+    {
+      "confident_disagreement": 0.34203655352480417,
+      "event": "reject",
+      "n_confident": 383.0,
+      "n_feedback": 700.0,
+      "n_neg": 367.0,
+      "n_pos": 333.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.34>0.3)"
+      ],
+      "round": 6
+    },
+    {
+      "confident_disagreement": 0.3148614609571788,
+      "event": "reject",
+      "n_confident": 397.0,
+      "n_feedback": 700.0,
+      "n_neg": 359.0,
+      "n_pos": 341.0,
+      "reasons": [
+        "suspicious_feedback(confident_disagreement=0.31>0.3)"
+      ],
+      "round": 7
+    }
+  ],
+  "simulated_concept_drift|flip_phish_to_legit|gated": [
+    {
+      "event": "commit",
+      "note": "v0 deployed",
+      "round": -1,
+      "version": 0
+    },
+    {
+      "confident_disagreement": 0.18045112781954886,
+      "event": "reject",
+      "fbval_cost_cand": 946.6666666666666,
+      "fbval_cost_inc": 796.6666666666666,
+      "n_confident": 399.0,
+      "n_feedback": 700.0,
+      "n_neg": 503.0,
+      "n_pos": 197.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8868672862342978,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 601.2,
+      "ref_cost_inc": 450.2,
+      "round": 0
+    },
+    {
+      "confident_disagreement": 0.14216867469879518,
+      "event": "reject",
+      "fbval_cost_cand": 1016.6666666666666,
+      "fbval_cost_inc": 916.6666666666666,
+      "n_confident": 415.0,
+      "n_feedback": 700.0,
+      "n_neg": 521.0,
+      "n_pos": 179.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8747604976639324,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 659.2,
+      "ref_cost_inc": 450.2,
+      "round": 1
+    },
+    {
+      "confident_disagreement": 0.23902439024390243,
+      "event": "reject",
+      "fbval_cost_cand": 870.0,
+      "fbval_cost_inc": 696.6666666666666,
+      "n_confident": 410.0,
+      "n_feedback": 700.0,
+      "n_neg": 613.0,
+      "n_pos": 87.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8139475509459426,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 990.5,
+      "ref_cost_inc": 450.2,
+      "round": 2
+    },
+    {
+      "confident_disagreement": 0.20099255583126552,
+      "event": "reject",
+      "fbval_cost_cand": 520.0,
+      "fbval_cost_inc": 566.6666666666666,
+      "n_confident": 403.0,
+      "n_feedback": 700.0,
+      "n_neg": 614.0,
+      "n_pos": 86.0,
+      "reasons": [
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8622579158770823,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 638.3,
+      "ref_cost_inc": 450.2,
+      "round": 3
+    },
+    {
+      "confident_disagreement": 0.2531017369727047,
+      "event": "reject",
+      "fbval_cost_cand": 483.3333333333333,
+      "fbval_cost_inc": 563.3333333333334,
+      "n_confident": 403.0,
+      "n_feedback": 700.0,
+      "n_neg": 623.0,
+      "n_pos": 77.0,
+      "reasons": [
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8141072914353644,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 1051.5,
+      "ref_cost_inc": 450.2,
+      "round": 4
+    },
+    {
+      "confident_disagreement": 0.1543942992874109,
+      "event": "reject",
+      "fbval_cost_cand": 786.6666666666666,
+      "fbval_cost_inc": 793.3333333333334,
+      "n_confident": 421.0,
+      "n_feedback": 700.0,
+      "n_neg": 508.0,
+      "n_pos": 192.0,
+      "reasons": [
+        "reference_auc_regression"
+      ],
+      "ref_auc_cand": 0.8776883931586078,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 546.6,
+      "ref_cost_inc": 450.2,
+      "round": 5
+    },
+    {
+      "confident_disagreement": 0.16666666666666666,
+      "event": "reject",
+      "fbval_cost_cand": 870.0,
+      "fbval_cost_inc": 843.3333333333334,
+      "n_confident": 384.0,
+      "n_feedback": 700.0,
+      "n_neg": 537.0,
+      "n_pos": 163.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8324386794697789,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 719.9,
+      "ref_cost_inc": 450.2,
+      "round": 6
+    },
+    {
+      "confident_disagreement": 0.17277486910994763,
+      "event": "reject",
+      "fbval_cost_cand": 880.0,
+      "fbval_cost_inc": 810.0,
+      "n_confident": 382.0,
+      "n_feedback": 700.0,
+      "n_neg": 525.0,
+      "n_pos": 175.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8177172275539617,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 744.0,
+      "ref_cost_inc": 450.2,
+      "round": 7
+    }
+  ],
+  "simulated_concept_drift|flip_phish_to_legit|gated+rollback": [
+    {
+      "event": "commit",
+      "note": "v0 deployed",
+      "round": -1,
+      "version": 0
+    },
+    {
+      "confident_disagreement": 0.18045112781954886,
+      "event": "reject",
+      "fbval_cost_cand": 946.6666666666666,
+      "fbval_cost_inc": 796.6666666666666,
+      "n_confident": 399.0,
+      "n_feedback": 700.0,
+      "n_neg": 503.0,
+      "n_pos": 197.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8868672862342978,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 601.2,
+      "ref_cost_inc": 450.2,
+      "round": 0
+    },
+    {
+      "confident_disagreement": 0.14216867469879518,
+      "event": "reject",
+      "fbval_cost_cand": 1016.6666666666666,
+      "fbval_cost_inc": 916.6666666666666,
+      "n_confident": 415.0,
+      "n_feedback": 700.0,
+      "n_neg": 521.0,
+      "n_pos": 179.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8747604976639324,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 659.2,
+      "ref_cost_inc": 450.2,
+      "round": 1
+    },
+    {
+      "confident_disagreement": 0.23902439024390243,
+      "event": "reject",
+      "fbval_cost_cand": 870.0,
+      "fbval_cost_inc": 696.6666666666666,
+      "n_confident": 410.0,
+      "n_feedback": 700.0,
+      "n_neg": 613.0,
+      "n_pos": 87.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8139475509459426,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 990.5,
+      "ref_cost_inc": 450.2,
+      "round": 2
+    },
+    {
+      "confident_disagreement": 0.20099255583126552,
+      "event": "reject",
+      "fbval_cost_cand": 520.0,
+      "fbval_cost_inc": 566.6666666666666,
+      "n_confident": 403.0,
+      "n_feedback": 700.0,
+      "n_neg": 614.0,
+      "n_pos": 86.0,
+      "reasons": [
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8622579158770823,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 638.3,
+      "ref_cost_inc": 450.2,
+      "round": 3
+    },
+    {
+      "confident_disagreement": 0.2531017369727047,
+      "event": "reject",
+      "fbval_cost_cand": 483.3333333333333,
+      "fbval_cost_inc": 563.3333333333334,
+      "n_confident": 403.0,
+      "n_feedback": 700.0,
+      "n_neg": 623.0,
+      "n_pos": 77.0,
+      "reasons": [
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8141072914353644,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 1051.5,
+      "ref_cost_inc": 450.2,
+      "round": 4
+    },
+    {
+      "confident_disagreement": 0.1543942992874109,
+      "event": "reject",
+      "fbval_cost_cand": 786.6666666666666,
+      "fbval_cost_inc": 793.3333333333334,
+      "n_confident": 421.0,
+      "n_feedback": 700.0,
+      "n_neg": 508.0,
+      "n_pos": 192.0,
+      "reasons": [
+        "reference_auc_regression"
+      ],
+      "ref_auc_cand": 0.8776883931586078,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 546.6,
+      "ref_cost_inc": 450.2,
+      "round": 5
+    },
+    {
+      "confident_disagreement": 0.16666666666666666,
+      "event": "reject",
+      "fbval_cost_cand": 870.0,
+      "fbval_cost_inc": 843.3333333333334,
+      "n_confident": 384.0,
+      "n_feedback": 700.0,
+      "n_neg": 537.0,
+      "n_pos": 163.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8324386794697789,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 719.9,
+      "ref_cost_inc": 450.2,
+      "round": 6
+    },
+    {
+      "confident_disagreement": 0.17277486910994763,
+      "event": "reject",
+      "fbval_cost_cand": 880.0,
+      "fbval_cost_inc": 810.0,
+      "n_confident": 382.0,
+      "n_feedback": 700.0,
+      "n_neg": 525.0,
+      "n_pos": 175.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8177172275539617,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 744.0,
+      "ref_cost_inc": 450.2,
+      "round": 7
+    }
+  ],
+  "simulated_concept_drift|none|gated": [
+    {
+      "event": "commit",
+      "note": "v0 deployed",
+      "round": -1,
+      "version": 0
+    },
+    {
+      "confident_disagreement": 0.18045112781954886,
+      "event": "reject",
+      "fbval_cost_cand": 946.6666666666666,
+      "fbval_cost_inc": 796.6666666666666,
+      "n_confident": 399.0,
+      "n_feedback": 700.0,
+      "n_neg": 503.0,
+      "n_pos": 197.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8868672862342978,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 601.2,
+      "ref_cost_inc": 450.2,
+      "round": 0
+    },
+    {
+      "confident_disagreement": 0.14216867469879518,
+      "event": "reject",
+      "fbval_cost_cand": 1016.6666666666666,
+      "fbval_cost_inc": 916.6666666666666,
+      "n_confident": 415.0,
+      "n_feedback": 700.0,
+      "n_neg": 521.0,
+      "n_pos": 179.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8747604976639324,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 659.2,
+      "ref_cost_inc": 450.2,
+      "round": 1
+    },
+    {
+      "confident_disagreement": 0.16829268292682928,
+      "event": "reject",
+      "fbval_cost_cand": 976.6666666666666,
+      "fbval_cost_inc": 1060.0,
+      "n_confident": 410.0,
+      "n_feedback": 700.0,
+      "n_neg": 513.0,
+      "n_pos": 187.0,
+      "reasons": [
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8753531417661518,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 614.5,
+      "ref_cost_inc": 450.2,
+      "round": 2
+    },
+    {
+      "confident_disagreement": 0.19395465994962216,
+      "event": "reject",
+      "fbval_cost_cand": 983.3333333333334,
+      "fbval_cost_inc": 730.0,
+      "n_confident": 397.0,
+      "n_feedback": 700.0,
+      "n_neg": 511.0,
+      "n_pos": 189.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.88674327884813,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 565.7,
+      "ref_cost_inc": 450.2,
+      "round": 3
+    },
+    {
+      "confident_disagreement": 0.1738095238095238,
+      "event": "reject",
+      "fbval_cost_cand": 1060.0,
+      "fbval_cost_inc": 940.0,
+      "n_confident": 420.0,
+      "n_feedback": 700.0,
+      "n_neg": 523.0,
+      "n_pos": 177.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation"
+      ],
+      "ref_auc_cand": 0.9199396888470532,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 507.3,
+      "ref_cost_inc": 450.2,
+      "round": 4
+    },
+    {
+      "confident_disagreement": 0.16666666666666666,
+      "event": "reject",
+      "fbval_cost_cand": 890.0,
+      "fbval_cost_inc": 660.0,
+      "n_confident": 402.0,
+      "n_feedback": 700.0,
+      "n_neg": 505.0,
+      "n_pos": 195.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8988184916998454,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 578.7,
+      "ref_cost_inc": 450.2,
+      "round": 5
+    },
+    {
+      "confident_disagreement": 0.16279069767441862,
+      "event": "reject",
+      "fbval_cost_cand": 846.6666666666666,
+      "fbval_cost_inc": 713.3333333333334,
+      "n_confident": 387.0,
+      "n_feedback": 700.0,
+      "n_neg": 508.0,
+      "n_pos": 192.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.814268332701564,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 839.1,
+      "ref_cost_inc": 450.2,
+      "round": 6
+    },
+    {
+      "confident_disagreement": 0.14074074074074075,
+      "event": "reject",
+      "fbval_cost_cand": 853.3333333333334,
+      "fbval_cost_inc": 946.6666666666666,
+      "n_confident": 405.0,
+      "n_feedback": 700.0,
+      "n_neg": 517.0,
+      "n_pos": 183.0,
+      "reasons": [
+        "reference_auc_regression"
+      ],
+      "ref_auc_cand": 0.902778515309709,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 520.2,
+      "ref_cost_inc": 450.2,
+      "round": 7
+    }
+  ],
+  "simulated_concept_drift|none|gated+rollback": [
+    {
+      "event": "commit",
+      "note": "v0 deployed",
+      "round": -1,
+      "version": 0
+    },
+    {
+      "confident_disagreement": 0.18045112781954886,
+      "event": "reject",
+      "fbval_cost_cand": 946.6666666666666,
+      "fbval_cost_inc": 796.6666666666666,
+      "n_confident": 399.0,
+      "n_feedback": 700.0,
+      "n_neg": 503.0,
+      "n_pos": 197.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8868672862342978,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 601.2,
+      "ref_cost_inc": 450.2,
+      "round": 0
+    },
+    {
+      "confident_disagreement": 0.14216867469879518,
+      "event": "reject",
+      "fbval_cost_cand": 1016.6666666666666,
+      "fbval_cost_inc": 916.6666666666666,
+      "n_confident": 415.0,
+      "n_feedback": 700.0,
+      "n_neg": 521.0,
+      "n_pos": 179.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8747604976639324,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 659.2,
+      "ref_cost_inc": 450.2,
+      "round": 1
+    },
+    {
+      "confident_disagreement": 0.16829268292682928,
+      "event": "reject",
+      "fbval_cost_cand": 976.6666666666666,
+      "fbval_cost_inc": 1060.0,
+      "n_confident": 410.0,
+      "n_feedback": 700.0,
+      "n_neg": 513.0,
+      "n_pos": 187.0,
+      "reasons": [
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8753531417661518,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 614.5,
+      "ref_cost_inc": 450.2,
+      "round": 2
+    },
+    {
+      "confident_disagreement": 0.19395465994962216,
+      "event": "reject",
+      "fbval_cost_cand": 983.3333333333334,
+      "fbval_cost_inc": 730.0,
+      "n_confident": 397.0,
+      "n_feedback": 700.0,
+      "n_neg": 511.0,
+      "n_pos": 189.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.88674327884813,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 565.7,
+      "ref_cost_inc": 450.2,
+      "round": 3
+    },
+    {
+      "confident_disagreement": 0.1738095238095238,
+      "event": "reject",
+      "fbval_cost_cand": 1060.0,
+      "fbval_cost_inc": 940.0,
+      "n_confident": 420.0,
+      "n_feedback": 700.0,
+      "n_neg": 523.0,
+      "n_pos": 177.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation"
+      ],
+      "ref_auc_cand": 0.9199396888470532,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 507.3,
+      "ref_cost_inc": 450.2,
+      "round": 4
+    },
+    {
+      "confident_disagreement": 0.16666666666666666,
+      "event": "reject",
+      "fbval_cost_cand": 890.0,
+      "fbval_cost_inc": 660.0,
+      "n_confident": 402.0,
+      "n_feedback": 700.0,
+      "n_neg": 505.0,
+      "n_pos": 195.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.8988184916998454,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 578.7,
+      "ref_cost_inc": 450.2,
+      "round": 5
+    },
+    {
+      "confident_disagreement": 0.16279069767441862,
+      "event": "reject",
+      "fbval_cost_cand": 846.6666666666666,
+      "fbval_cost_inc": 713.3333333333334,
+      "n_confident": 387.0,
+      "n_feedback": 700.0,
+      "n_neg": 508.0,
+      "n_pos": 192.0,
+      "reasons": [
+        "no_improvement_on_fresh_feedback_validation",
+        "reference_auc_regression",
+        "reference_cost_regression"
+      ],
+      "ref_auc_cand": 0.814268332701564,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 839.1,
+      "ref_cost_inc": 450.2,
+      "round": 6
+    },
+    {
+      "confident_disagreement": 0.14074074074074075,
+      "event": "reject",
+      "fbval_cost_cand": 853.3333333333334,
+      "fbval_cost_inc": 946.6666666666666,
+      "n_confident": 405.0,
+      "n_feedback": 700.0,
+      "n_neg": 517.0,
+      "n_pos": 183.0,
+      "reasons": [
+        "reference_auc_regression"
+      ],
+      "ref_auc_cand": 0.902778515309709,
+      "ref_auc_inc": 0.9333670719121945,
+      "ref_cost_cand": 520.2,
+      "ref_cost_inc": 450.2,
+      "round": 7
+    }
+  ]
+}

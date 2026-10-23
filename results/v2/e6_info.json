@@ -1,0 +1,13 @@
+{
+  "n_controls_brand": 1500,
+  "n_controls_unseen_legit": 3000,
+  "n_typosquats": 2629,
+  "thresholds_policy_fpr1%": {
+    "charcnn": 0.8648985624313356,
+    "ens_xlin+cnn": 0.6128114152191881,
+    "v1_hybrid_lr": 0.6132904291152955,
+    "xlin_pw2_aug": 0.7912925481796266,
+    "xlin_pw2_base": 0.7472360730171205,
+    "xlin_pw2_full": 0.8018664717674256
+  }
+}

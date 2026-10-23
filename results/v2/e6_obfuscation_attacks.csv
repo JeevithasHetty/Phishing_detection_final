@@ -1,0 +1,19 @@
+attack,model,n,recall_clean,recall_attacked
+homoglyph digits in registered-domain label (SIMULATED),v1_hybrid_lr,6000,0.77,0.926
+homoglyph digits in registered-domain label (SIMULATED),xlin_pw2_base,6000,0.7758333333333334,0.9275
+homoglyph digits in registered-domain label (SIMULATED),xlin_pw2_aug,6000,0.759,0.8801666666666667
+homoglyph digits in registered-domain label (SIMULATED),xlin_pw2_full,6000,0.7615,0.9013333333333333
+homoglyph digits in registered-domain label (SIMULATED),charcnn,6000,0.7388333333333333,0.8546666666666667
+homoglyph digits in registered-domain label (SIMULATED),ens_xlin+cnn,6000,0.7961666666666667,0.921
+benign path padding x2 (SIMULATED),v1_hybrid_lr,6000,0.77,0.25266666666666665
+benign path padding x2 (SIMULATED),xlin_pw2_base,6000,0.7758333333333334,0.2055
+benign path padding x2 (SIMULATED),xlin_pw2_aug,6000,0.759,0.674
+benign path padding x2 (SIMULATED),xlin_pw2_full,6000,0.7615,0.3248333333333333
+benign path padding x2 (SIMULATED),charcnn,6000,0.7388333333333333,0.235
+benign path padding x2 (SIMULATED),ens_xlin+cnn,6000,0.7961666666666667,0.2905
+"benign path padding, unseen vocabulary (SIMULATED)",v1_hybrid_lr,6000,0.77,0.5238333333333334
+"benign path padding, unseen vocabulary (SIMULATED)",xlin_pw2_base,6000,0.7758333333333334,0.5653333333333334
+"benign path padding, unseen vocabulary (SIMULATED)",xlin_pw2_aug,6000,0.759,0.8408333333333333
+"benign path padding, unseen vocabulary (SIMULATED)",xlin_pw2_full,6000,0.7615,0.4861666666666667
+"benign path padding, unseen vocabulary (SIMULATED)",charcnn,6000,0.7388333333333333,0.38966666666666666
+"benign path padding, unseen vocabulary (SIMULATED)",ens_xlin+cnn,6000,0.7961666666666667,0.5335

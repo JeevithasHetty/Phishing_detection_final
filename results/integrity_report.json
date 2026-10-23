@@ -1,0 +1,70 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "raw data files match hashes recorded by the audit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "all 56 prediction sets carry the current dataset hash and split checksum",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "supervised metrics regenerated from saved predictions for 10 model/variant pairs",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "supervised_results.md contains the values from supervised_metrics.csv",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "sequential_rl_results.md contains values from rl_summary_table.csv",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "cost_sensitive_results.md contains values from cost_static_policies.csv",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "deployable bundle loads and predicts",
+      "passed": true,
+      "detail": "[{'url': 'http://example.com/a', 'predicted_class': 'legitimate', 'risk_score': 0.06998185459098216, 'action': 'INSPECT'}, {'url': 'http://secure-login-verify.xyz/account/update.php?id=1', 'predicted_class': 'phishing', 'risk_score': 0.9999999918811894, 'action': 'BLOCK'}]"
+    },
+    {
+      "check": "all required reports exist and are non-trivial",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "references.bib exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no empty source files",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "no placeholder markers in source/reports",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "run_status: every recorded stage (except this one) exited 0",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "no stage was run in FAST (reduced-budget) mode",
+      "passed": true,
+      "detail": "[]"
+    }
+  ]
+}

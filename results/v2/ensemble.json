@@ -1,0 +1,12 @@
+{
+  "coef": [
+    0.7512870640367288,
+    0.3550854359569444
+  ],
+  "components": [
+    "xlin_pw2_full",
+    "charcnn"
+  ],
+  "fitted_on": "validation partition only",
+  "intercept": -0.7832071431511359
+}

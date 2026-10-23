@@ -1,0 +1,27 @@
+{
+  "base_model": "SGD logistic (hashed char 2-4grams + lexical)",
+  "fast": false,
+  "gate": {
+    "confident_margin": 0.05,
+    "max_confident_disagreement": 0.3,
+    "max_reference_cost_increase": 0.25,
+    "max_reference_regression": 0.02,
+    "min_feedback": 300,
+    "min_gain": 0.0,
+    "min_per_class": 30,
+    "rollback_cost_margin": 0.1
+  },
+  "n_base_train": 200000,
+  "poison_rounds": [
+    2,
+    3,
+    4
+  ],
+  "sim": {
+    "analyst_noise": 0.05,
+    "batch": 2000,
+    "n_feedback": 1000,
+    "rounds": 8
+  },
+  "threshold": 0.09090909090909091
+}

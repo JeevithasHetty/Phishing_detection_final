@@ -1,0 +1,448 @@
+{
+  "data_dir_files": {
+    "FINAL_DATASET_MANIFEST.csv": {
+      "bytes": 1326,
+      "sha256": "03747a498977b22c1e1067d3f41b64f1688d59a97ac2291b465baba458619d2d"
+    },
+    "README_FINAL_DATASET.txt": {
+      "bytes": 2318,
+      "sha256": "72840079dacb6a4cf2893be4d585c7b715b71e002d1795936b77d7a8b324a624"
+    },
+    "adaptive_feedback_repository_template.csv": {
+      "bytes": 156,
+      "sha256": "846a9a1b0a3c99ba735c33af971f32a2692a98a36ccdc6ce6025cbf466255be3"
+    },
+    "dataset_audit_summary.csv": {
+      "bytes": 417,
+      "sha256": "0e9891e02188585477b98e6df5f7ee7dc37f3830eab0d64a0f7a0a41209a27fe"
+    },
+    "drift_monitoring_template.csv": {
+      "bytes": 179,
+      "sha256": "1573401a811610b06cfc3c2a346a4b14d3a70106d9a0ba4a12fcc633db353c9e"
+    },
+    "master_training_candidate.csv": {
+      "bytes": 59950621,
+      "sha256": "ad97c0cad175663ff7827fbcaa27fabb6b7c5df966732bfbcccc562c4af0d391"
+    },
+    "novelty_detection_output_template.csv": {
+      "bytes": 142,
+      "sha256": "900c818f0270171229f982acee0421da5cb7bb61ae6c23b4f92d0e183667c249"
+    },
+    "recent_holdout_candidate.csv": {
+      "bytes": 15969318,
+      "sha256": "bc7232fb95d5ff1c0772f110a5e65cfcdf0366e387dac08dc1af41f7b38c88d0"
+    },
+    "rl_decision_feedback_template.csv": {
+      "bytes": 151,
+      "sha256": "7079356ac390b77cb014aeb27be9da5ba83f087d0d7e960e8c879dc0487cd74a"
+    },
+    "split_summary.csv": {
+      "bytes": 249,
+      "sha256": "c1aa804192eb23b02fbc6a82615c30973515a36d0e13a52a4d43f4f0cfadc72a"
+    },
+    "test_recent_unseen_domains.csv": {
+      "bytes": 9816855,
+      "sha256": "7cac32647c66599ad94470d9ca777401e2d81f0557cc7af3169afec1badbbd95"
+    },
+    "test_unseen_domain.csv": {
+      "bytes": 9460420,
+      "sha256": "c9e5ea3cf092ab282b374ba8586e6ae6e63ff0cc71051ba8936eac6f85a5b8df"
+    },
+    "train_domain_split.csv": {
+      "bytes": 42166849,
+      "sha256": "0d54962bc756f18e6e20c2eba251385dd5ef052f2919ee8df2e36fe8f48245ed"
+    },
+    "uci_benchmark_clean.csv": {
+      "bytes": 408524,
+      "sha256": "2c820130e3aa78e94d8ca295d056bfe232b5207ccd4936c23390b2dc2b4bafaf"
+    },
+    "validation_domain_split.csv": {
+      "bytes": 8323428,
+      "sha256": "a57a7065208cbfc59e2196cdbf9afbc462cbb9a83ca804b089f56d86f7805853"
+    }
+  },
+  "format_probes": {
+    "recent": {
+      "frac_has_path_legit": 0.9762256772224341,
+      "frac_has_path_phish": 0.391674550614948,
+      "frac_https_legit": 0.0,
+      "frac_https_phish": 0.0,
+      "frac_www_legit": 0.19787294925600915,
+      "frac_www_phish": 0.03857539597766045,
+      "mean_len_legit": 94.93766692102251,
+      "mean_len_phish": 48.35947752311777
+    },
+    "test": {
+      "frac_has_path_legit": 0.6485574685900419,
+      "frac_has_path_phish": 0.6082044384667115,
+      "frac_https_legit": 0.0,
+      "frac_https_phish": 0.0,
+      "frac_www_legit": 0.9986815573134792,
+      "frac_www_phish": 0.2695359784801614,
+      "mean_len_legit": 47.63082312186547,
+      "mean_len_phish": 55.948554135843985
+    },
+    "train": {
+      "frac_has_path_legit": 0.6257740121005861,
+      "frac_has_path_phish": 0.5954019416326289,
+      "frac_https_legit": 0.0,
+      "frac_https_phish": 0.0,
+      "frac_www_legit": 0.9985199234259784,
+      "frac_www_phish": 0.28135914284022967,
+      "mean_len_legit": 48.84564957931556,
+      "mean_len_phish": 55.429793405552594
+    },
+    "val": {
+      "frac_has_path_legit": 0.5731728644334568,
+      "frac_has_path_phish": 0.6193518640495324,
+      "frac_https_legit": 0.0,
+      "frac_https_phish": 0.0,
+      "frac_www_legit": 0.9981875705496113,
+      "frac_www_phish": 0.26699380845738374,
+      "mean_len_legit": 48.48040509388066,
+      "mean_len_phish": 55.485607956790936
+    }
+  },
+  "label_conflicts_normalised": {
+    "examples": [
+      {
+        "label": 1,
+        "norm": "4shared.com",
+        "split": "train"
+      },
+      {
+        "label": 0,
+        "norm": "4shared.com",
+        "split": "train"
+      },
+      {
+        "label": 1,
+        "norm": "beyondtrust.com",
+        "split": "train"
+      },
+      {
+        "label": 0,
+        "norm": "beyondtrust.com",
+        "split": "val"
+      },
+      {
+        "label": 1,
+        "norm": "elperuano.pe",
+        "split": "train"
+      },
+      {
+        "label": 0,
+        "norm": "elperuano.pe",
+        "split": "test"
+      },
+      {
+        "label": 1,
+        "norm": "gmail.com",
+        "split": "train"
+      },
+      {
+        "label": 0,
+        "norm": "gmail.com",
+        "split": "recent"
+      },
+      {
+        "label": 1,
+        "norm": "orange.fr",
+        "split": "train"
+      },
+      {
+        "label": 0,
+        "norm": "orange.fr",
+        "split": "test"
+      }
+    ],
+    "n_keys": 8
+  },
+  "master": {
+    "all_split_urls_in_master": true,
+    "phishing": 195248,
+    "rows": 674007,
+    "split_rows_sum": 674007
+  },
+  "overlap": {
+    "test~recent": {
+      "exact_url": 0,
+      "frac_b_rows_rd_in_a": 0.4159,
+      "hostname": 1,
+      "normalised_url": 30,
+      "registered_domain_icann": 335,
+      "rows_b_whose_rd_in_a": 31069
+    },
+    "train~recent": {
+      "exact_url": 0,
+      "frac_b_rows_rd_in_a": 0.541,
+      "hostname": 0,
+      "normalised_url": 115,
+      "registered_domain_icann": 593,
+      "rows_b_whose_rd_in_a": 40414
+    },
+    "train~test": {
+      "exact_url": 0,
+      "frac_b_rows_rd_in_a": 0.3758,
+      "hostname": 0,
+      "normalised_url": 1434,
+      "registered_domain_icann": 3983,
+      "rows_b_whose_rd_in_a": 40249
+    },
+    "train~val": {
+      "exact_url": 0,
+      "frac_b_rows_rd_in_a": 0.2637,
+      "hostname": 2,
+      "normalised_url": 1457,
+      "registered_domain_icann": 4052,
+      "rows_b_whose_rd_in_a": 24594
+    },
+    "val~recent": {
+      "exact_url": 0,
+      "frac_b_rows_rd_in_a": 0.4048,
+      "hostname": 0,
+      "normalised_url": 22,
+      "registered_domain_icann": 309,
+      "rows_b_whose_rd_in_a": 30238
+    },
+    "val~test": {
+      "exact_url": 0,
+      "frac_b_rows_rd_in_a": 0.188,
+      "hostname": 0,
+      "normalised_url": 301,
+      "registered_domain_icann": 1726,
+      "rows_b_whose_rd_in_a": 20137
+    }
+  },
+  "recent_candidate": {
+    "holdout_rows": 74703,
+    "holdout_subset_of_candidate": true,
+    "phishing": 51178,
+    "rows": 121523
+  },
+  "split_summary_vs_actual": [
+    {
+      "legitimate": 338496,
+      "phishing": 135144,
+      "phishing_pct": 28.53,
+      "rows": 473640,
+      "split": "train",
+      "unique_domains": 266690
+    },
+    {
+      "legitimate": 62899,
+      "phishing": 30364,
+      "phishing_pct": 32.56,
+      "rows": 93263,
+      "split": "validation",
+      "unique_domains": 56886
+    },
+    {
+      "legitimate": 77364,
+      "phishing": 29740,
+      "phishing_pct": 27.77,
+      "rows": 107104,
+      "split": "unseen-domain-test",
+      "unique_domains": 57008
+    },
+    {
+      "legitimate": 41938,
+      "phishing": 32767,
+      "phishing_pct": 43.86,
+      "rows": 74705,
+      "split": "recent-unseen-domain-holdout",
+      "unique_domains": 33141
+    }
+  ],
+  "splits": {
+    "recent": {
+      "cols": [
+        "url",
+        "label",
+        "source",
+        "domain",
+        "sources"
+      ],
+      "dup_exact_url": 0,
+      "dup_normalised": 412,
+      "empty_host": 0,
+      "ip_host_pct": 0.08,
+      "legit": 41936,
+      "missing_values": 0,
+      "phish_pct": 43.86,
+      "phishing": 32767,
+      "provided_domain_equals_parsed_host_pct": 99.99,
+      "rows": 74703,
+      "scheme_counts_by_label": {
+        "http": {
+          "0": 41936,
+          "1": 32767
+        }
+      },
+      "source_counts": {
+        "Recent-PhishTank-CommonCrawl": 74703
+      },
+      "source_phish_rate": {
+        "Recent-PhishTank-CommonCrawl": 0.4386
+      },
+      "unique_hosts": 33139,
+      "unique_registered_domains_icann": 8477,
+      "url_with_space_after_scheme_by_label": {
+        "0": 0,
+        "1": 0
+      }
+    },
+    "test": {
+      "cols": [
+        "url",
+        "label",
+        "sources",
+        "domain",
+        "source_count"
+      ],
+      "dup_exact_url": 0,
+      "dup_normalised": 167,
+      "empty_host": 0,
+      "ip_host_pct": 0.61,
+      "legit": 77364,
+      "missing_values": 0,
+      "phish_pct": 27.77,
+      "phishing": 29740,
+      "provided_domain_equals_parsed_host_pct": 99.95,
+      "rows": 107104,
+      "scheme_counts_by_label": {
+        "http": {
+          "0": 77364,
+          "1": 29740
+        }
+      },
+      "source_counts": {
+        "Mendeley-450K": 71941,
+        "Mendeley-450K;PhiUSIIL": 274,
+        "PhiUSIIL": 34889
+      },
+      "source_phish_rate": {
+        "Mendeley-450K": 0.2065,
+        "Mendeley-450K;PhiUSIIL": 0.0255,
+        "PhiUSIIL": 0.4265
+      },
+      "unique_hosts": 57008,
+      "unique_registered_domains_icann": 47948,
+      "url_with_space_after_scheme_by_label": {
+        "0": 0,
+        "1": 0
+      }
+    },
+    "train": {
+      "cols": [
+        "url",
+        "label",
+        "sources",
+        "domain",
+        "source_count"
+      ],
+      "dup_exact_url": 0,
+      "dup_normalised": 3557,
+      "empty_host": 2,
+      "ip_host_pct": 0.67,
+      "legit": 338496,
+      "missing_values": 0,
+      "phish_pct": 28.53,
+      "phishing": 135144,
+      "provided_domain_equals_parsed_host_pct": 99.94,
+      "rows": 473640,
+      "scheme_counts_by_label": {
+        "http": {
+          "0": 338496,
+          "1": 135144
+        }
+      },
+      "source_counts": {
+        "Mendeley-450K": 310827,
+        "Mendeley-450K;PhiUSIIL": 1192,
+        "PhiUSIIL": 161621
+      },
+      "source_phish_rate": {
+        "Mendeley-450K": 0.2149,
+        "Mendeley-450K;PhiUSIIL": 0.026,
+        "PhiUSIIL": 0.4226
+      },
+      "unique_hosts": 266691,
+      "unique_registered_domains_icann": 214155,
+      "url_with_space_after_scheme_by_label": {
+        "0": 0,
+        "1": 4
+      }
+    },
+    "val": {
+      "cols": [
+        "url",
+        "label",
+        "sources",
+        "domain",
+        "source_count"
+      ],
+      "dup_exact_url": 0,
+      "dup_normalised": 174,
+      "empty_host": 0,
+      "ip_host_pct": 0.6,
+      "legit": 62899,
+      "missing_values": 0,
+      "phish_pct": 32.56,
+      "phishing": 30364,
+      "provided_domain_equals_parsed_host_pct": 99.93,
+      "rows": 93263,
+      "scheme_counts_by_label": {
+        "http": {
+          "0": 62899,
+          "1": 30364
+        }
+      },
+      "source_counts": {
+        "Mendeley-450K": 59093,
+        "Mendeley-450K;PhiUSIIL": 249,
+        "PhiUSIIL": 33921
+      },
+      "source_phish_rate": {
+        "Mendeley-450K": 0.2753,
+        "Mendeley-450K;PhiUSIIL": 0.0361,
+        "PhiUSIIL": 0.4153
+      },
+      "unique_hosts": 56886,
+      "unique_registered_domains_icann": 47858,
+      "url_with_space_after_scheme_by_label": {
+        "0": 0,
+        "1": 2
+      }
+    }
+  },
+  "timestamps_available": false,
+  "train_rd_purity": {
+    "frac_rd_pure": 0.9983,
+    "frac_rows_in_pure_rd": 0.9313,
+    "top_phish_rd": {
+      "000webhostapp.com": 678,
+      "firebaseapp.com": 3878,
+      "google.com": 791,
+      "ipfs.io": 1073,
+      "repl.co": 2530,
+      "square.site": 738,
+      "web.app": 3901,
+      "weeblysite.com": 2044,
+      "workers.dev": 956,
+      "xsph.ru": 658
+    }
+  },
+  "uci": {
+    "has_raw_url": false,
+    "label_counts": {
+      "0": 2766,
+      "1": 2955
+    },
+    "note": "30 categorical features only; benchmark-only, unused for URL experiments",
+    "shape": [
+      5721,
+      31
+    ]
+  }
+}

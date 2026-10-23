@@ -1,0 +1,8 @@
+{
+  "calibrator": "platt",
+  "classifier": "hybrid_lr",
+  "n_sim": 30000,
+  "protocol": "regdomain_seed11",
+  "threshold": 0.08182457437532478,
+  "variant": "norm"
+}
